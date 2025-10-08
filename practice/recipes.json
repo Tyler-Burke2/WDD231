@@ -29,7 +29,7 @@
             "amounts": {
                 "amount": "3"
             }
-        }
+        },
         {
             "name": "vanilla",
             "amounts": {
@@ -60,7 +60,7 @@
         },
         {
             "name": "semi-sweet chocolate chips",
-            "amounts" {
+            "amounts": {
                 "amount": "2",
                 "unit": "cups"
             }
@@ -81,7 +81,7 @@
         "Bake 8-10 minutes at 350 F"
     ]
 
-}
+},
 {
     "recipeName": "Chocolate Chip Cookies",
     "ingredientsList": [
@@ -112,7 +112,7 @@
             "amounts": {
                 "amount": "3"
             }
-        }
+        },
         {
             "name": "vanilla",
             "amounts": {
@@ -143,7 +143,7 @@
         },
         {
             "name": "semi-sweet chocolate chips",
-            "amounts" {
+            "amounts": {
                 "amount": "2",
                 "unit": "cups"
             }
