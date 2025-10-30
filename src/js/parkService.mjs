@@ -219,6 +219,7 @@ async function getJson(url) {
 }
 
 export function getInfoLinks(data) {
+  // Why index + 2 below? no real reason. we don't want index 0 since that is the one we used for the banner...I decided to skip an image.
   const withUpdatedImages = parkInfoLinks.map((item, index) => {
     item.image = data[index + 2].url;
     return item;

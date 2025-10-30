@@ -1,6 +1,10 @@
+/* current conditions styles */
+
 main {
   padding: 1rem;
 }
+
+/* alerts */
 
 .alerts > ul {
   list-style: none;
@@ -30,6 +34,8 @@ main {
   margin: 0.25em;
   flex: 0 0 auto;
 }
+
+/* visitor styles */
 
 .visitor > details > ul {
   list-style: none;
