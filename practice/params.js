@@ -1,13 +1,10 @@
-// See which URL we are on — check the "search" property
 console.log(window.location);
 
-// Return the value of a specific search parameter
 function getParams(param) {
   const params = new URLSearchParams(window.location.search);
-  return params.get(param); // returns a string or null
+  return params.get(param);
 }
 
-// Build HTML markup for a product object
 function productTemplate(product) {
   return `
     <article class="product">
@@ -18,7 +15,6 @@ function productTemplate(product) {
   `;
 }
 
-// Main function: find productId → find matching product → output to <main>
 function getProductDetails() {
   const productId = getParams("productId");
 
@@ -29,7 +25,6 @@ function getProductDetails() {
     return;
   }
 
-  // Compare as strings to avoid type mismatch issues
   const product = products.find(p => String(p.id) === String(productId));
 
   if (!product) {
@@ -37,9 +32,7 @@ function getProductDetails() {
     return;
   }
 
-  // Insert the generated markup
   main.innerHTML = productTemplate(product);
 }
 
-// Run automatically when product.html loads
 getProductDetails();
