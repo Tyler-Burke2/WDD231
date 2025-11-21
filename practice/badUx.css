@@ -1,0 +1,97 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+  line-height: 1.75;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  color: #1a1a1a;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+/* Content */
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Form */
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: #ffffff;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #0077ff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
